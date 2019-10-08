@@ -1,13 +1,13 @@
 
 require 'pry'
-string = "This is a pretty long string that I do not know if this will actually work. Apply"
+string = "This is a pretty long string that I do not know if this will actually work. Apply underling. "
 
 def starts_with_a_vowel?(word)
   word.match(/^[aeiouAEIOU]\w+/) ? true : false
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.scan(/^)
+  text.scan(/^un/)
 end
 
 def words_five_letters_long(text)
